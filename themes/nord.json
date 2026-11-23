@@ -1,0 +1,18 @@
+{
+  "id": "nord",
+  "name": "Nord",
+  "author": "igxtul",
+  "description": "Холодные серо-голубые тона",
+  "accent": "#FF88C0D0",
+  "background": "#FF2E3440",
+  "bubble_in": "#FF3B4252",
+  "bubble_out": "#FF5E81AC",
+  "bubble_in_text": "#FFECEFF4",
+  "bubble_out_text": "#FFECEFF4",
+  "text_primary": "#FFECEFF4",
+  "text_secondary": "#FFD8DEE9",
+  "corner_radius_dp": 12,
+  "font_size_sp": 15,
+  "gradient_bubbles": true,
+  "rounded_avatars": true
+}

@@ -1,0 +1,4 @@
+rootProject.name = 'igxtulgram'
+include ':core'
+include ':igxtulgram'
+project(':igxtulgram').projectDir = file('android')

@@ -1,0 +1,18 @@
+{
+  "id": "paper",
+  "name": "Paper",
+  "author": "igxtul",
+  "description": "Светлая тема для дня",
+  "accent": "#FF2D7FF9",
+  "background": "#FFF5F6FA",
+  "bubble_in": "#FFFFFFFF",
+  "bubble_out": "#FFDCEBFF",
+  "bubble_in_text": "#FF16202B",
+  "bubble_out_text": "#FF16202B",
+  "text_primary": "#FF16202B",
+  "text_secondary": "#FF6B7686",
+  "corner_radius_dp": 16,
+  "font_size_sp": 15,
+  "gradient_bubbles": false,
+  "rounded_avatars": true
+}

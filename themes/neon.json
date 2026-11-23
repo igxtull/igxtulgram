@@ -1,0 +1,18 @@
+{
+  "id": "neon",
+  "name": "Neon",
+  "author": "igxtul",
+  "description": "Яркий розовый акцент",
+  "accent": "#FFFF2E88",
+  "background": "#FF09090F",
+  "bubble_in": "#FF17131F",
+  "bubble_out": "#FF6A1B4D",
+  "bubble_in_text": "#FFFFF4FA",
+  "bubble_out_text": "#FFFFF4FA",
+  "text_primary": "#FFFFF4FA",
+  "text_secondary": "#FFB9A9C4",
+  "corner_radius_dp": 18,
+  "font_size_sp": 16,
+  "gradient_bubbles": true,
+  "rounded_avatars": true
+}

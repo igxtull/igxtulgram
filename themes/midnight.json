@@ -1,0 +1,18 @@
+{
+  "id": "midnight",
+  "name": "Midnight",
+  "author": "igxtul",
+  "description": "Тёмная база с фиолетовым акцентом",
+  "accent": "#FF7B5CFF",
+  "background": "#FF0E1015",
+  "bubble_in": "#FF1C202B",
+  "bubble_out": "#FF4A3AA8",
+  "bubble_in_text": "#FFF2F4FF",
+  "bubble_out_text": "#FFF7F8FF",
+  "text_primary": "#FFF2F4FF",
+  "text_secondary": "#FFA0A6BC",
+  "corner_radius_dp": 14,
+  "font_size_sp": 15,
+  "gradient_bubbles": true,
+  "rounded_avatars": true
+}
