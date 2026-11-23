@@ -1,5 +1,7 @@
 # igxtulGram (iGX)
 
+[![igxtulGram CI](https://github.com/igxtull/igxtulgram/actions/workflows/build.yml/badge.svg)](https://github.com/igxtull/igxtulgram/actions/workflows/build.yml)
+
 Клиент-мод для Android-версии Telegram, заточенный под кастомизацию.
 Название собрано из ника **igxtul** + `gram` (Telegram). Версия 1.0.0.
 
@@ -47,6 +49,10 @@ IgxtulGram/
 ├── themes/          готовые JSON-темы
 └── docs/            интеграция и формат тем
 ```
+
+Репозиторий: https://github.com/igxtull/igxtulgram
+GitHub Actions без ПК собирает AAR и гоняет self-test ядра; готовый AAR кладётся
+в `artifacts/igxtulgram-debug.aar` (скачивается командой `gh run download`).
 
 ## Быстрый старт
 
