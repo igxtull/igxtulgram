@@ -5,3 +5,5 @@ build/
 android/build/
 core/build/
 *.class
+
+telegram-apk/

@@ -39,6 +39,7 @@ public final class ModSettingsActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        try {
         super.onCreate(savedInstanceState);
         engine = IgxtulGram.init(this, null);
         target = new AndroidTarget(this);
@@ -144,6 +145,15 @@ public final class ModSettingsActivity extends Activity {
 
         engine.attach(target);
         target.setRoot(root);
+        } catch (Throwable t) {
+            String msg = t.getClass().getName() + ": " + t.getMessage();
+            android.widget.TextView err = new android.widget.TextView(this);
+            err.setText("igxtulGram error:\n" + msg);
+            err.setTextColor(Color.RED);
+            err.setTextSize(TypedValue.COMPLEX_UNIT_SP, 16);
+            err.setPadding(dp(16), dp(16), dp(16), dp(16));
+            setContentView(err);
+        }
     }
 
     private void title(String text) {
