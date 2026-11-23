@@ -51,10 +51,21 @@ IgxtulGram/
 ```
 
 Репозиторий: https://github.com/igxtull/igxtulgram
-Форк Telegram с интегрированным модом: https://github.com/igxtull/Telegram-igxtulgram
+
+Готовый мод-клиент (все фичи ExteraGram + AyuGram + igxtulGram):
+https://github.com/igxtull/igxtulgram-exteraless
+
+База — открытый форк [exteraless](https://github.com/exteraless/exteraless)
+на той же версии Telegram 13.2.2, с открытыми классами AyuGram. Сверху наложен
+наш мод: кнопка **iGX**, экран настроек, тонировка пузырей и 5 пресетов.
+
+Раньше использовался форк https://github.com/igxtull/Telegram-igxtulgram —
+на нём проверялась интеграция с чистым Telegram.
+
 GitHub Actions без ПК собирает AAR и гоняет self-test ядра; готовый AAR кладётся
 в `artifacts/igxtulgram-debug.aar` (скачивается командой `gh run download`).
-Сборка полноценного APK идёт в workflow форка `Build igxtulGram Telegram`.
+Полноценный APK собирается workflow `Build igxtulGram Telegram` в репозитории
+`igxtulgram-exteraless`.
 
 ## Быстрый старт
 
