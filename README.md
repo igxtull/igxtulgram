@@ -51,8 +51,10 @@ IgxtulGram/
 ```
 
 Репозиторий: https://github.com/igxtull/igxtulgram
+Форк Telegram с интегрированным модом: https://github.com/igxtull/Telegram-igxtulgram
 GitHub Actions без ПК собирает AAR и гоняет self-test ядра; готовый AAR кладётся
 в `artifacts/igxtulgram-debug.aar` (скачивается командой `gh run download`).
+Сборка полноценного APK идёт в workflow форка `Build igxtulGram Telegram`.
 
 ## Быстрый старт
 
